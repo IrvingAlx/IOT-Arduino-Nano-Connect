@@ -1,0 +1,28 @@
+from time import *
+from machine import *
+led = Pin(25,Pin.OUT)
+led.on()
+led2 = Pin(15,Pin.OUT)
+led2.on()
+led3 = Pin(16,Pin.OUT)
+led3.on()
+led4 = Pin(17,Pin.OUT)
+led4.on()
+
+while (True):
+     led.on ()
+     sleep (0.1)
+     led.off ()
+     sleep (0.1)
+     led2.on ()
+     sleep (0.1)
+     led2.off ()
+     sleep (0.1)
+     led3.on ()
+     sleep (0.1)
+     led3.off ()
+     sleep (0.1)
+     led4.on ()
+     sleep (0.1)
+     led4.off ()
+     sleep (0.1)
